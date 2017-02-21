@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+gridiron.egg-info/PKG-INFO
+gridiron.egg-info/SOURCES.txt
+gridiron.egg-info/dependency_links.txt
+gridiron.egg-info/top_level.txt
+migrations/__init__.py
+templatetags/__init__.py
+templatetags/gridiron.py
