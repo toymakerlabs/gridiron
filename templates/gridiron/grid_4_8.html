@@ -1,0 +1,18 @@
+{% load gridiron %}
+
+{% comment %}
+Extend the template and pass extra_class in an include
+{% endcomment %}
+
+{% with class=extra_class|default:"" %}
+{% grid_row classname=class%}
+{% grid_column 4 classname="bsf" %}
+    {% block column_4 %}
+    {% endblock %}
+{% endcol %}
+{% grid_column 8 %}
+    {% block column_8 %}
+    {% endblock %}
+{% endcol %}
+{% endrow %}
+{% endwith %}

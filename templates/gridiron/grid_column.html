@@ -1,0 +1,3 @@
+<div {%if id %}id="{{id}}"{%endif%} class="mdl-cell {% for col in columns %}mdl-cell--{{col}}-col {% endfor %}{%if classname %}{{classname}}{%endif%}">
+    {{content}}
+</div>
